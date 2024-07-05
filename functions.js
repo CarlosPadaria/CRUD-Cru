@@ -39,7 +39,9 @@ function start() {
       listClass: 'paginacao pagination',
       item: function (values) {
         return `<li class="page-item"><a class='page-link' href="#">${values.page}</a></li>`
-      }
+      },
+      left: true,
+      right: true
     }
   };
 
